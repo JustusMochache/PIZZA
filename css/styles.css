@@ -15,7 +15,7 @@ html {
 	transition: 0.2s ease-out;
 }
 .jumbotron:hover{
-	transform: scale(1.1);
+	transform: scale(1.2);
 	
 	box-shadow: 0 0 20px rgb(0, 0, 0);
 }
@@ -26,7 +26,7 @@ html {
 	transition: 0.2s ease-out;
 }
 .card:hover {
-	transform: scale(1.1);
+	transform: scale(1.2);
 	padding: 10px;
 	
 	box-shadow: 0 0 20px rgb(0, 0, 0);
