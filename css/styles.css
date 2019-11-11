@@ -8,3 +8,9 @@ html {
 	width: 60px;
 	height: 60px;
 }
+.jumbotron{
+	display: flex;
+	justify-content: space-around;
+	border-bottom:3px solid black;
+}
+
