@@ -12,7 +12,7 @@ html {
 	display: flex;
 	justify-content: space-around;
 	border-bottom: 2px solid black;
-	transition: 0.2s ease-out;
+	transition: 0.4s ease-out;
 }
 .jumbotron:hover{
 	transform: scale(1.2);
@@ -23,16 +23,16 @@ html {
 
 .card {
 	
-	transition: 0.2s ease-out;
+	transition: 0.4s ease-out;
 }
 .card:hover {
 	transform: scale(1.2);
-	padding: 10px;
+	padding: px;
 	
 	box-shadow: 0 0 20px rgb(0, 0, 0);
 }
 button{
-	transition: 0.2s ease-out;
+	transition: 0.4s ease-out;
 }
 
 button:hover{
