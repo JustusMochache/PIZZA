@@ -4,12 +4,10 @@ html {
 	box-sizing: border-box;
 }
 
-.navbar {
-    height: 200px;
-    
+.jumbotron {
+	border-radius: 0.3rem;
 }
-.nav-item {
-	border-radius: 100px; 
-    border: 3px solid black;
-    color: white ;
+#navbar>img{
+	width: 30px;
+	height:30px;
 }
