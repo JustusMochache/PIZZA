@@ -4,7 +4,7 @@ html {
 	box-sizing: border-box;
 }
 
-#navbar > img {
+#navbar >a>img{
 	width: 60px;
 	height: 60px;
 }
@@ -12,6 +12,23 @@ html {
 	display: flex;
 	justify-content: space-around;
 	border-bottom: 2px solid black;
+	transition: 0.2s ease-out;
+}
+.jumbotron:hover{
+	transform: scale(1.1);
+	
+	box-shadow: 0 0 20px rgb(0, 0, 0);
+}
 }
 
+.card {
+	
+	transition: 0.2s ease-out;
+}
+.card:hover {
+	transform: scale(1.1);
+	padding: 3px;
+	margin: -3px;
+	box-shadow: 0 0 20px rgb(0, 0, 0);
+}
 
